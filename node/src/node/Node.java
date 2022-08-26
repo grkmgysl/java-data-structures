@@ -1,3 +1,5 @@
+package node;
+
 public class Node {
 
     private String data;
@@ -16,7 +18,7 @@ public class Node {
         return this.next;
     }
 
-    public void setNextNode(Node next) {
+    public void setNext(Node next) {
         this.next = next;
     }
 
